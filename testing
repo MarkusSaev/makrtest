@@ -1,0 +1,7 @@
+rs::for_each(
+   std::cbegin(v), std::cend(v),
+   print_elem);
+ 
+// or
+ 
+rs::for_each(std::as_const(v), print_elem);
